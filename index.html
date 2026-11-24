@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Chaelvin | Portfolio
+  </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div id="progress">
+  </div>
+  <div aria-hidden="true" id="intro">
+   C / W.
+   <small>
+    DESIGN • CODE • CREATE
+   </small>
+  </div>
+  <header class="sticky-top">
+   <nav class="navbar navbar-expand-lg container nav-shell">
+    <a class="navbar-brand fw-bold" href="#home">
+     <span class="logo">
+      C.
+     </span>
+     C / W.
+    </a>
+    <button aria-label="Menu" class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+     <span class="navbar-toggler-icon">
+     </span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+     <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+      <li>
+       <a class="nav-link" href="#home">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="nav-link" href="#about">
+        About
+       </a>
+      </li>
+      <li>
+       <a class="nav-link" href="#skills">
+        Skills
+       </a>
+      </li>
+      <li>
+       <a class="nav-link" href="#projects">
+        Projects
+       </a>
+      </li>
+      <li>
+       <a class="nav-link" href="#journey">
+        Journey
+       </a>
+      </li>
+      <li>
+       <button aria-label="Navigasi cepat" class="btn btn-outline-primary" data-bs-target="#command" data-bs-toggle="modal">
+        ⌘ K
+       </button>
+      </li>
+      <li>
+       <button aria-label="Ganti tema" class="btn btn-outline-primary" id="theme">
+        <i class="bi bi-moon-stars">
+        </i>
+       </button>
+      </li>
+      <li>
+       <a class="nav-link" href="#lab">
+        Lab
+       </a>
+      </li>
+      <li>
+       <a class="btn btn-primary" href="#contact">
+        Let's talk ↗
+       </a>
+      </li>
+     </ul>
+    </div>
+   </nav>
+  </header>
+  <main>
+   <section class="hero" id="home">
+    <canvas aria-hidden="true" id="particles">
+    </canvas>
+    <div class="container">
+     <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+       <span class="eyebrow">
+        ● DESIGN. CODE. CREATE.
+       </span>
+       <p class="fs-5 mt-4 mb-1">
+        Creative portfolio / 2026
+       </p>
+       <h1>
+        Turning logic
+        <br/>
+        <span>
+         into digital solutions.
+        </span>
+       </h1>
+       <h2 class="fs-3 text-primary" id="typing">
+        Backend Development Enthusiast
+       </h2>
+       <p class="fs-5 fw-bold">
+        Chaelvin Effendy Wijaya
+       </p>
+       <p class="lead muted">
+        Mahasiswa Sistem Informasi yang tertarik pada backend, logika pemrograman, dan pengolahan data. Bagi saya, coding adalah kesenangan tersendiri.
+       </p>
+       <div class="d-flex flex-wrap gap-3">
+        <a class="btn btn-primary btn-lg" href="#projects">
+         Explore my work ↗
+        </a>
+        <a class="btn btn-outline-primary btn-lg" href="#about">
+         About me
+        </a>
+       </div>
+       <div class="d-flex gap-3 mt-4">
+        <a class="btn btn-outline-primary" href="https://github.com/chaelvineff" rel="noopener noreferrer" target="_blank">
+         <i class="bi bi-github">
+         </i>
+         GitHub
+        </a>
+        <a class="btn btn-outline-primary" href="https://www.instagram.com/ch.eff_23/" rel="noopener noreferrer" target="_blank">
+         <i class="bi bi-instagram">
+         </i>
+         Instagram
+        </a>
+       </div>
+      </div>
+      <div class="col-lg-5">
+       <div class="portrait">
+        <img alt="Foto profil" onerror="this.hidden=true" src="assets/img/profile.png"/>
+        <span class="portrait-placeholder">
+         C.
+        </span>
+        <div class="float-label">
+         <i class="bi bi-code-slash">
+         </i>
+         Backend Development
+        </div>
+        <div class="float-label second">
+         <i class="bi bi-filetype-py">
+         </i>
+         Python
+        </div>
+        <span class="orbit-tag tag-one">
+         HTML5
+        </span>
+        <span class="orbit-tag tag-two">
+         Python
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <div aria-label="Teknologi yang dipelajari" class="marquee">
+    <div>
+     HTML5 ✦ CSS3 ✦ BOOTSTRAP ✦ PYTHON ✦ FIGMA ✦ JAVASCRIPT ✦ HTML5 ✦ CSS3 ✦ BOOTSTRAP ✦ PYTHON ✦ FIGMA ✦ JAVASCRIPT ✦
+    </div>
+   </div>
+   <div class="container">
+    <div class="stats row g-0 text-center">
+     <div class="col-4">
+      <strong data-count="3">
+       3
+      </strong>
+      <small>
+       Projects
+      </small>
+     </div>
+     <div class="col-4">
+      <strong data-count="6">
+       6
+      </strong>
+      <small>
+       Technologies
+      </small>
+     </div>
+     <div class="col-4">
+      <strong data-count="1">
+       1
+      </strong>
+      <small>
+       Learning journey
+      </small>
+     </div>
+    </div>
+   </div>
+   <section id="about">
+    <div class="container row mx-auto g-4 align-items-center">
+     <div class="col-lg-5">
+      <span class="eyebrow">
+       01 / ABOUT ME
+      </span>
+      <h2>
+       Learning today.
+       <br/>
+       Creating tomorrow.
+      </h2>
+     </div>
+     <div class="col-lg-7 panel">
+      <p>
+       Saya merupakan mahasiswa Program Studi Sistem Informasi di Universitas Kristen Satya Wacana yang memiliki ketertarikan besar terhadap bidang IT, khususnya Backend Development.
+      </p>
+      <p>
+       Bagi saya, coding bukan sekadar kegiatan akademik, melainkan sebuah kesenangan tersendiri. Saya ingin terus mengembangkan kemampuan logika pemrograman, pengolahan data, dan pengembangan sistem.
+      </p>
+      <p class="mb-0">
+       <strong>
+        NIM:
+       </strong>
+       682026061 ·
+       <strong>
+        Kelas:
+       </strong>
+       PTI-B
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="soft" id="skills">
+    <div class="container">
+     <span class="eyebrow">
+      02 / TOOLKIT
+     </span>
+     <h2>
+      Tools &amp; technologies.
+     </h2>
+     <p class="muted">
+      Teknologi yang sedang saya pelajari.
+     </p>
+     <div class="row g-3" id="skillsGrid">
+      <div class="col-6 col-md-4 col-lg-2">
+       <div class="skill panel">
+        <i class="bi bi-filetype-html">
+        </i>
+        <h3 class="h6 mt-3">
+         HTML5
+        </h3>
+        <small>
+         Learning
+        </small>
+       </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+       <div class="skill panel">
+        <i class="bi bi-filetype-css">
+        </i>
+        <h3 class="h6 mt-3">
+         CSS3
+        </h3>
+        <small>
+         Learning
+        </small>
+       </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+       <div class="skill panel">
+        <i class="bi bi-bootstrap">
+        </i>
+        <h3 class="h6 mt-3">
+         Bootstrap
+        </h3>
+        <small>
+         Learning
+        </small>
+       </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+       <div class="skill panel">
+        <i class="bi bi-filetype-js">
+        </i>
+        <h3 class="h6 mt-3">
+         JavaScript
+        </h3>
+        <small>
+         Learning
+        </small>
+       </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+       <div class="skill panel">
+        <i class="bi bi-filetype-py">
+        </i>
+        <h3 class="h6 mt-3">
+         Python
+        </h3>
+        <small>
+         Learning
+        </small>
+       </div>
+      </div>
+      <div class="col-6 col-md-4 col-lg-2">
+       <div class="skill panel">
+        <i class="bi bi-vector-pen">
+        </i>
+        <h3 class="h6 mt-3">
+         Figma
+        </h3>
+        <small>
+         Learning
+        </small>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="projects">
+    <div class="container">
+     <span class="eyebrow">
+      03 / SELECTED WORK
+     </span>
+     <h2>
+      Selected projects.
+     </h2>
+     <div class="d-flex flex-wrap gap-2 mb-4" id="filters">
+      <button aria-pressed="true" class="btn btn-primary" data-filter="all">
+       All
+      </button>
+      <button aria-pressed="false" class="btn btn-outline-primary" data-filter="web">
+       WordPress / CMS
+      </button>
+      <button aria-pressed="false" class="btn btn-outline-primary" data-filter="design">
+       UI/UX
+      </button>
+      <button aria-pressed="false" class="btn btn-outline-primary" data-filter="python">
+       Python
+      </button>
+     </div>
+     <div class="row g-4" id="projectGrid">
+      <div class="col-md-6 col-lg-4 project" data-category="python">
+       <article class="card h-100">
+        <div class="thumb">
+         <span>
+          01 / PROJECT PREVIEW
+         </span>
+         <img alt="Cuplikan Library Management" onerror="this.hidden=true" src="assets/img/project1.png"/>
+        </div>
+        <div class="card-body d-flex flex-column">
+         <small class="text-primary">
+          Python · Data Storage
+         </small>
+         <h3 class="h4 mt-2">
+          Library Management System
+         </h3>
+         <p class="muted">
+          Proyek kelompok berbasis Python untuk pengelolaan perpustakaan. Saya berkontribusi dalam pengembangan kode pada bagian penyimpanan data.
+         </p>
+         <button class="btn btn-outline-primary mt-auto align-self-start detail" data-bs-target="#detailModal" data-bs-toggle="modal" data-desc="Proyek kelompok berbasis Python untuk pengelolaan perpustakaan. Saya berkontribusi dalam pengembangan kode pada bagian penyimpanan data." data-img="assets/img/proyek1.png" data-title="Library Management System">
+          Lihat detail ↗
+         </button>
+        </div>
+       </article>
+      </div>
+      <div class="col-md-6 col-lg-4 project" data-category="design">
+       <article class="card h-100">
+        <div class="thumb">
+         <span>
+          02 / PROJECT PREVIEW
+         </span>
+         <img alt="Cuplikan Studies UI/UX" onerror="this.hidden=true" src="assets/img/project2.png"/>
+        </div>
+        <div class="card-body d-flex flex-column">
+         <small class="text-primary">
+          Figma · UI/UX
+         </small>
+         <h3 class="h4 mt-2">
+          Studies UI/UX
+         </h3>
+         <p class="muted">
+          Saya merancang landing page Studies menggunakan Figma untuk memperkenalkan platform pembelajaran dan pengelolaan tugas.
+         </p>
+         <button class="btn btn-outline-primary mt-auto align-self-start detail" data-bs-target="#detailModal" data-bs-toggle="modal" data-desc="Saya merancang landing page Studies menggunakan Figma untuk memperkenalkan platform pembelajaran dan pengelolaan tugas." data-img="assets/img/proyek2.png" data-title="Studies UI/UX">
+          Lihat detail ↗
+         </button>
+        </div>
+       </article>
+      </div>
+      <div class="col-md-6 col-lg-4 project" data-category="web">
+       <article class="card h-100">
+        <div class="thumb">
+         <span>
+          03 / PROJECT PREVIEW
+         </span>
+         <img alt="Cuplikan Website Kota Bogor — WordPress CMS" onerror="this.hidden=true" src="assets/img/project3.png"/>
+        </div>
+        <div class="card-body d-flex flex-column">
+         <small class="text-primary">
+          WordPress · CMS · Content Management
+         </small>
+         <h3 class="h4 mt-2">
+          Website Kota Bogor — WordPress CMS
+         </h3>
+         <p class="muted">
+          Website berbasis WordPress yang memperkenalkan sejarah, budaya, kuliner, pariwisata, dan potensi daerah Kota Bogor. Saya berperan dalam penyusunan konten, pengaturan tata letak, dan pengelolaan halaman menggunakan CMS.
+         </p>
+         <button class="btn btn-outline-primary mt-auto align-self-start detail" data-bs-target="#detailModal" data-bs-toggle="modal" data-desc="Website berbasis WordPress yang memperkenalkan sejarah, budaya, kuliner, pariwisata, dan potensi daerah Kota Bogor. Saya berperan dalam penyusunan konten, pengaturan tata letak, dan pengelolaan halaman menggunakan CMS." data-img="assets/img/proyek3.png" data-title="Website Kota Bogor — WordPress CMS">
+          Lihat detail ↗
+         </button>
+        </div>
+       </article>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="soft" id="journey">
+    <div class="container">
+     <span class="eyebrow">
+      04 / CREATIVE CHALLENGE
+     </span>
+     <h2>
+      My learning journey.
+     </h2>
+     <p class="muted">
+      Klik setiap tahap untuk menjelajahi perjalanan belajar saya.
+     </p>
+     <div class="accordion" id="timeline">
+      <div class="accordion-item">
+       <h3 class="accordion-header">
+        <button class="accordion-button" data-bs-target="#j1" data-bs-toggle="collapse">
+         01 — Programming fundamentals
+        </button>
+       </h3>
+       <div class="accordion-collapse collapse show" data-bs-parent="#timeline" id="j1">
+        <div class="accordion-body">
+         Variabel, fungsi, percabangan dan perulangan Python.
+        </div>
+       </div>
+      </div>
+      <div class="accordion-item">
+       <h3 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-target="#j2" data-bs-toggle="collapse">
+         02 — UI/UX exploration
+        </button>
+       </h3>
+       <div class="accordion-collapse collapse" data-bs-parent="#timeline" id="j2">
+        <div class="accordion-body">
+         Belajar Figma dan merancang antarmuka Studies.
+        </div>
+       </div>
+      </div>
+      <div class="accordion-item">
+       <h3 class="accordion-header">
+        <button class="accordion-button collapsed" data-bs-target="#j3" data-bs-toggle="collapse">
+         03 — Web development
+        </button>
+       </h3>
+       <div class="accordion-collapse collapse" data-bs-parent="#timeline" id="j3">
+        <div class="accordion-body">
+         Membangun website responsif dengan HTML, CSS, Bootstrap dan JavaScript.
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section id="lab">
+    <div class="container">
+     <span class="eyebrow">
+      05 / CREATIVE CHALLENGE
+     </span>
+     <h2>
+      Developer Lab.
+     </h2>
+     <p class="muted">
+      Ketik help untuk menjelajahi profil saya melalui terminal interaktif.
+     </p>
+     <div class="row g-4">
+      <div class="col-lg-7">
+       <div class="terminal">
+        <div class="terminal-bar">
+         ● ● ●
+         <span>
+          profile.js — interactive terminal
+         </span>
+        </div>
+        <pre aria-live="polite" id="terminalOutput">Welcome! Ketik help untuk melihat perintah.</pre>
+        <form id="terminalForm">
+         <label for="terminalInput">
+          visitor $
+         </label>
+         <input autocomplete="off" id="terminalInput" maxlength="40" placeholder="help"/>
+         <button type="submit">
+          Run ↵
+         </button>
+        </form>
+       </div>
+      </div>
+      <div class="col-lg-5">
+       <div class="bento-note">
+        <small>
+         MY PHILOSOPHY
+        </small>
+        <h3>
+         Stay curious.
+         <br/>
+         Keep creating.
+        </h3>
+        <p>
+         Belajar, mencoba, dan memperbaiki.
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer id="contact">
+   <div class="container text-center">
+    <span class="eyebrow">
+     05 / CONTACT
+    </span>
+    <h2>
+     Let's build something great.
+    </h2>
+    <p>
+     Terbuka untuk belajar dan bertukar ide.
+    </p>
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+     <a class="btn btn-outline-light" href="https://github.com/chaelvineff" rel="noopener" target="_blank">
+      <i class="bi bi-github">
+      </i>
+      GitHub
+     </a>
+     <a class="btn btn-outline-light" href="https://www.instagram.com/ch.eff_23/" rel="noopener" target="_blank">
+      <i class="bi bi-instagram">
+      </i>
+      Instagram
+     </a>
+    </div>
+    <hr/>
+    <small>
+     ©
+     <span id="year">
+      2026
+     </span>
+     Chaelvin Effendy Wijaya · Sistem Informasi · Universitas Kristen Satya Wacana
+    </small>
+   </div>
+  </footer>
+  <div aria-labelledby="modalTitle" class="modal fade" id="detailModal" tabindex="-1">
+   <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+     <div class="modal-header">
+      <h2 class="modal-title h4" id="modalTitle">
+      </h2>
+      <button aria-label="Tutup" class="btn-close" data-bs-dismiss="modal">
+      </button>
+     </div>
+     <div class="modal-body">
+      <img alt="Cuplikan proyek" class="img-fluid rounded mb-3" id="modalImg" onerror="this.hidden=true"/>
+      <p id="modalDesc">
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div aria-label="Navigasi cepat" class="modal fade" id="command" tabindex="-1">
+   <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content p-4">
+     <div class="d-flex justify-content-between">
+      <h2 class="h5">
+       Jump to section
+      </h2>
+      <button aria-label="Tutup" class="btn-close" data-bs-dismiss="modal">
+      </button>
+     </div>
+     <input aria-label="Cari bagian" class="form-control my-3" id="commandSearch" placeholder="Cari bagian..."/>
+     <div class="list-group" id="commandLinks">
+      <a class="list-group-item list-group-item-action" href="#home">
+       Home
+      </a>
+      <a class="list-group-item list-group-item-action" href="#about">
+       About
+      </a>
+      <a class="list-group-item list-group-item-action" href="#skills">
+       Skills
+      </a>
+      <a class="list-group-item list-group-item-action" href="#projects">
+       Projects
+      </a>
+      <a class="list-group-item list-group-item-action" href="#journey">
+       Journey
+      </a>
+      <a class="list-group-item list-group-item-action" href="#contact">
+       Contact
+      </a>
+      <a class="list-group-item list-group-item-action" href="#lab">
+       Developer Lab
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <button aria-label="Kembali ke atas" class="btn btn-primary" id="top">
+   ↑
+  </button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <script src="js/script.js">
+  </script>
+ </body>
+</html>
